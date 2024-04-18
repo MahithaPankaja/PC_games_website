@@ -3,8 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PC Games Website - News</title>
+    <title>Paradise of games - News</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #008000; /* Green background color */
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0056b3; /* Dark blue header background color (same as home page) */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #004080; /* Navy blue navigation background color (same as home page) */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff; /* White link color (same as home page) */
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3; /* Dark blue hover color (same as home page) */
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .article {
+            background-color: #61de2a; /* Light green background color for articles */
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex; /* Use flexbox to enable side-by-side layout */
+            align-items: center; /* Center vertically */
+        }
+
+        .article img {
+            max-height: 250px; /* Set max height for the image */
+            margin-right: 20px; /* Add space between image and text */
+            border-radius: 5px; /* Add border-radius to the image */
+        }
+
+        .article-content {
+            flex: 1; /* Allow the content to grow and fill available space */
+        }
+
+        .article h3 {
+            color: #000; /* Black article title color */
+        }
+
+        .article p {
+            color: #000; /* Black text color for article content */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,19 +82,88 @@
         <a href="contact.html">Contact</a>
     </nav>
     <section>
-        <h2>Recent Articles</h2>
-        <div class="article">
-            <h3>Article Title 1</h3>
-            <p>Summary of the article content.</p>
+        <h2>Latest News</h2>
+		<div class="article">
+            <img src="arc.jfif" alt="Intel Arc GPU">
+            <div class="article-content">
+                <h3>Intel's Arc GPUs</h3>
+                <p>Intel's entry into the dedicated graphics card market with its Arc GPUs marks a significant milestone in the competitive landscape 
+				of gaming hardware. Leveraging its expertise in semiconductor technology, Intel aims to challenge the dominance of established players 
+				like NVIDIA and AMD in the GPU market. The Arc GPUs promise competitive performance and innovative features tailored for gaming 
+				enthusiasts and content creators. With their debut, PC gamers now have another viable option for high-performance graphics cards, 
+				potentially introducing more choice and competition in the market. Intel's Arc GPUs are poised to shake up the industry, driving 
+				innovation and pushing the boundaries of gaming graphics technology.</p>
+            </div>
         </div>
         <div class="article">
-            <h3>Article Title 2</h3>
-            <p>Summary of the article content.</p>
+            <img src="cpnews.jpg" alt="CyberPunk">
+            <div class="article-content">
+                <h3>Cyberpunk 2077 Updates</h3>
+                <p>CD Projekt Red's ambitious open-world RPG, Cyberpunk 2077, continues to undergo significant updates aimed at addressing the game's 
+				initial issues and enhancing its overall experience. Following its highly anticipated release, the game faced criticism for technical 
+				glitches, performance issues, and unmet expectations. However, CD Projekt Red has remained committed to improving the game through a 
+				series of patches and updates. Recent patches have focused on bug fixes, stability improvements, and performance optimizations across 
+				all platforms. Additionally, free DLCs and expansions are in the works, promising to introduce new content, quests, and features to 
+				expand the game's universe and narrative. With each update, Cyberpunk 2077 strives to regain player trust and deliver the immersive, 
+				futuristic experience envisioned by its developers.</p>
+            </div>
         </div>
-        <!-- Add more articles as needed -->
+        <div class="article">
+            <img src="eldnews.jpg" alt="Elden Ring">
+            <div class="article-content">
+                <h3>Elden Ring's Spectacular Launch</h3>
+                <p>FromSoftware's highly anticipated title, Elden Ring, has made an indelible mark on the gaming community with its spectacular launch. 
+				Drawing on the collaborative efforts of acclaimed game director Hidetaka Miyazaki and renowned fantasy author George R.R. Martin, 
+				Elden Ring presents players with a sprawling open world teeming with lore, secrets, and formidable foes. Critics have lauded the game's 
+				rich narrative, expansive environments, and intricate combat system, which seamlessly blend FromSoftware's signature gameplay mechanics 
+				with George R.R. Martin's captivating storytelling. As players embark on their journey through the Lands Between, they encounter 
+				breathtaking vistas, challenging encounters, and deep mysteries waiting to be uncovered. Elden Ring's success not only cements 
+				FromSoftware's reputation as a master of the action RPG genre but also reaffirms the enduring appeal of immersive, challenging gaming 
+				experiences that resonate with players on a profound level.</p>
+            </div>
+        </div>
+		<div class="article">
+            <img src="cloud.jpg" alt="Cloud Gaming">
+            <div class="article-content">
+                <h3>Rise of Cloud Gaming</h3>
+                <p> Cloud gaming has emerged as a viable alternative for gamers seeking accessibility and convenience without compromising on performance. 
+				Services like Xbox Cloud Gaming, NVIDIA GeForce Now, and Google Stadia leverage cloud infrastructure to stream high-quality games directly 
+				to players' devices, eliminating the need for expensive hardware upgrades and installations. With advancements in streaming technology and 
+				expanding libraries of supported titles, cloud gaming offers unparalleled flexibility, allowing players to enjoy their favorite games on a 
+				wide range of devices, including smartphones, tablets, and smart TVs. Moreover, cloud gaming services continue to innovate with features 
+				like cross-platform play, seamless integration with existing libraries, and subscription options, making gaming more accessible and 
+				inclusive than ever before. As the technology matures and adoption rates rise, cloud gaming is poised to reshape the gaming landscape, 
+				democratizing access to immersive gaming experiences and redefining the way players engage with their favorite titles.</p>
+            </div>
+        </div>
+		<div class="article">
+            <img src="sd.jpg" alt="Steam Deck">
+            <div class="article-content">
+                <h3>Steam Deck's Arrival</h3>
+                <p>Valve's long-awaited handheld gaming device, the Steam Deck, has finally arrived, marking a significant milestone in the realm of 
+				portable gaming. Designed to deliver the full power of a gaming PC in a compact form factor, the Steam Deck opens up new possibilities 
+				for gaming on the go. Equipped with a custom AMD APU, a high-resolution touchscreen display, and an array of controls, including 
+				thumbsticks, buttons, and trackpads, the Steam Deck offers versatility and performance unrivaled by other handheld devices. Early 
+				adopters have praised its ergonomic design, responsive controls, and seamless integration with the Steam platform, which grants access 
+				to a vast library of games spanning various genres and generations. Whether exploring vast open worlds, engaging in intense multiplayer 
+				battles, or enjoying indie gems, the Steam Deck empowers gamers to experience their favorite titles anytime, anywhere, without compromise.</p>
+            </div>
+        </div>
+		<div class="article">
+            <img src="ep.jpg" alt="E-Sports">
+            <div class="article-content">
+                <h3>E-sports Expansion</h3>
+                <p>Esports continues to grow in popularity and scale, with new tournaments, leagues, and events captivating audiences around the world. 
+				Games like League of Legends, Dota 2, and Counter-Strike: Global Offensive remain staples of the competitive gaming scene, drawing in 
+				millions of viewers and offering substantial prize pools. Moreover, emerging titles like Valorant, Rocket League, and Call of Duty: 
+				Warzone are gaining traction in the esports arena, attracting a new generation of players and fans. With esports organizations, sponsors, 
+				and broadcasters investing heavily in infrastructure and production value, the esports industry shows no signs of slowing down, offering 
+				lucrative opportunities for players, teams, and organizers alike.</p>
+            </div>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 PC Games Website. All rights reserved.</p>
+        <p>&copy; 2024 Paradise of Games. All rights reserved.</p>
     </footer>
 </body>
 </html>
